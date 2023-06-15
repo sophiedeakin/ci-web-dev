@@ -15,7 +15,7 @@ h2 {
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #555555;
+    color: #555555 !important;
 }
 
 #logo {
@@ -364,9 +364,9 @@ footer {
        column-count: 3; 
     }
 
-    #form-container (
+    #form-container {
         left: 0;
-    )
+    }
 }
 
 @media screen and (max-width: 800px) {
